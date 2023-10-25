@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+/* 
+
+Color Palette
+
+#900C3F
+#C70039
+#F94C10
+#F8DE22
+
+*/
+
+/* Breakpoints 435px 640px */

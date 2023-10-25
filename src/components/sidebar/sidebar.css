@@ -1,0 +1,56 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 100vh;
+    position: relative;
+    z-index: 4;
+}
+
+.close-sidebar-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    font-size: 1rem;
+}
+
+.sidebar-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    list-style: none;
+}
+
+.sidebar-links a {
+    text-decoration: none;
+    color: #1B1B1B;
+    font-weight: 500;
+}
+
+.res-menu-icon-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    position: absolute;
+    margin-bottom: 24px;
+    gap: 0.9rem;
+    bottom: 0;
+}
+
+.res-menu-icon-list a {
+    color: #1B1B1B;
+    text-decoration: none;
+}
+
+.theme-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+}
